@@ -1,0 +1,6 @@
+services:
+  red-neuronal:
+    build: .
+    image: red-neuronal
+    volumes:
+      - ./resultados:/app/resultados
